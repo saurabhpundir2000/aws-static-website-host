@@ -1,0 +1,17 @@
+{
+  "Id": "Policy1567025525778",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1567025523814",
+      "Action": "s3:*",
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::www.myfirsthomepage.com",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::706035267738:root"
+        ]
+      }
+    }
+  ]
+}
